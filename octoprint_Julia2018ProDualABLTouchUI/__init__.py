@@ -47,11 +47,11 @@ class Julia2018ProDualABLTouchUI(octoprint.plugin.StartupPlugin):
                 # version check: github repository
                 type="github_release",
                 user="FracktalWorks",
-                repo="Julia2018ProDualABLTouchUI",
+                repo="JuliaKLETouchUI",
                 current=self._plugin_version,
 
                 # update method: pip
-                pip="https://github.com/FracktalWorks/Julia2018ProDualABLTouchUI/archive/{target_version}.zip"
+                pip="https://github.com/FracktalWorks/JuliaKLETouchUI/archive/{target_version}.zip"
             )
         )
 
